@@ -41,7 +41,7 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <Result total={this.state.result} />
+        <Result total={this.state.result} clear={this.clear} />
         <Buttons onClick={this.onClick} />
       </>
     );
